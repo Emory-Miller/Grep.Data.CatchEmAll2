@@ -1,37 +1,86 @@
 # Part 1
 ### a)
 
+grep "blas" forest/filescan_00.1 > captured/blastoise.txt
+grep "beed" forest/filescan_00.1 > captured/beedrill.txt
+grep "bulb" forest/filescan_00.1 > captured/bulbasaur.txt
+grep "butt" forest/filescan_00.1 > captured/butterfree.txt
 
+grep "mander$" forest/filescan_00.2 > captured/charmander.txt
+grep "izard$" forest/filescan_00.2 > captured/charizard.txt
+grep "meleon$" forest/filescan_00.2 > captured/charmeleon.txt
+
+grep "aur$" forest/filescan_00.3 > captured/ivysaur.txt
+grep "lypuff$" forest/filescan_00.3 > captured/jigglypuff.txt
+grep "th$" forest/filescan_00.3 > captured/meowth.txt
+grep "pika" forest/filescan_00.3 > captured/pikachu.txt
+
+grep "psyd" forest/filescan_00.4 > captured/psyduck.txt
+grep "squi" forest/filescan_00.4 > captured/squirtle.txt
+grep "venu" forest/filescan_00.4 > captured/venusaur.txt
+grep "wart" forest/filescan_00.4 > captured/wartortle.txt
 
 
 ### b)
-
+blastoise.txt
+beedrill.txt
+bulbasaur.txt
+butterfree.txt
+charmander.txt
+charizard.txt
+charmeleon.txt
+ivysaur.txt
+jigglypuff.txt
+meowth.txt
+pikachu.txt
+psyduck.txt
+squirtle.txt
+venusaur.txt
+wartortle.txt
 
 
 ### c)
 
+filescan_00.1
+    blastoise.txt
+    beedrill.txt
+    bulbasaur.txt
+    butterfree.txt
 
+filescan_00.2
+    charmander.txt
+    charizard.txt
+    charmeleon.txt
 
+filescan_00.3
+    ivysaur.txt
+    jigglypuff.txt
+    meowth.txt
+    pikachu.txt
 
-
-
-
-
-
-
-
+filescan_00.4
+    psyduck.txt
+    squirtle.txt
+    venusaur.txt
+    wartortle.txt
 
 
 # Part 2
 ### a)
 
-
+    ls | grep -v "^inst" | wc -l
 
 
 
 
 ### b)
 
+beedrill.txt
+charizard.txt
+pikachu.txt
+
+
+ wc -l *.txt
 
 
 
